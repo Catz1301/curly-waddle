@@ -1,0 +1,20 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.floating_action_button_example.javacodegeeks.com.androidfloatingactionbuttonexample.MainActivity">
+    <android.support.design.widget.FloatingActionButton
+      android:id="@+id/floatingButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginBottom="24dp"
+      android:layout_marginEnd="32dp"
+      android:src="@drawable/ic_done_48px"
+      app:layout_anchorGravity="bottom|right|end"
+      tools:layout_editor_absoluteX="309dp"
+      tools:layout_editor_absoluteY="436dp"/>
+</RelativeLayout>
